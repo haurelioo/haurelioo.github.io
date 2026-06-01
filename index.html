@@ -1,48 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Your Name | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Developer Portfolio</title>
+
   <style>
     body {
-      font-family: Arial;
-      max-width: 700px;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: #111827;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    header p {
+      color: #94a3b8;
+      margin-top: 10px;
+    }
+
+    section {
+      max-width: 800px;
       margin: auto;
-      padding: 40px;
-      line-height: 1.6;
+      padding: 40px 20px;
     }
-    h1 {
-      color: #333;
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
     }
-    .box {
-      background: #f4f4f4;
-      padding: 15px;
-      margin-top: 15px;
-      border-radius: 8px;
+
+    h2 {
+      color: #60a5fa;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748b;
     }
   </style>
 </head>
+
 <body>
 
-  <h1>Hello, I'm [Your Name]</h1>
-  <p>Web developer | Student | Builder</p>
+<header>
+  <h1>Your Name</h1>
+  <p>Web Developer | Student | Builder</p>
+</header>
 
-  <div class="box">
+<section>
+
+  <div class="card">
     <h2>About Me</h2>
-    <p>I build websites and small projects using HTML, CSS, and JavaScript.</p>
+    <p>
+      I am a developer who builds websites, learns new technologies,
+      and creates small projects to improve my skills.
+    </p>
   </div>
 
-  <div class="box">
+  <div class="card">
     <h2>Projects</h2>
     <ul>
-      <li>Portfolio Website</li>
-      <li>Blog System (coming soon)</li>
+      <li>Portfolio Website (this site)</li>
+      <li>More coming soon...</li>
     </ul>
   </div>
 
-  <div class="box">
-    <h2>Contact</h2>
-    <p>Email: you@example.com</p>
+  <div class="card">
+    <h2>Skills</h2>
+    <p>HTML • CSS • JavaScript (learning) • GitHub</p>
   </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>GitHub: https://github.com/yourusername</p>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Your Name. Built with GitHub Pages.
+</footer>
 
 </body>
 </html>
